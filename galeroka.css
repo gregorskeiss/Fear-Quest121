@@ -12,17 +12,8 @@ html {
   text-align: center;
   font size: 30px;
     margin-top: 40px;
-    margin-bottom: 40px;
-    margin-left: 40px;
-    margin-right: 40px;
-  }
-  .twokont {
-    width: 700px;
-    height: 200px;
-  border: 5px outset grey;
-  background-color: lightgrey;
-  text-align: left;
-  }
+    margin-
+
 
 h2 {
   font-size: 23px;
@@ -46,57 +37,6 @@ p {
   margin-left: 40px;
   margin-right: 40px;
 }
-
-   .onekont {
-     width: 1200px;
-     height: 200px;
-   border: 5px outset grey;
-  background-color: lightgrey;
-  text-align: left;
-   }
-   .threekont {
-     width: 370px;
-     height: 650px;
- border: 5px outset red;
-background-color: darkred;
-text-align: left;
-   }
-   .fourkont {
-     width: 400px;
-     height: 650px;
-      border: 5px outset red;
-     background-color: darkred;
-     text-align: left;
-   }
- .fivekont {
-   width: 200px;
-   height: 550px;
-    border: 5px outset grey;
-   background-color: lightgrey;
-   text-align: left;
- }
- .sixkont {
-   width: 200px;
-   height: 550px;
-    border: 5px outset grey;
-   background-color: lightgrey;
-   text-align: left;
- }
- .sevenkont {
-   width: 400px;
-   height: 650px;
-    border: 5px outset red;
-   background-color: darkred;
-   text-align: left;
- }
- .eightkont {
-   width: 200px;
-   height: 550px;
-    border: 5px outset grey;
-   background-color: lightgrey;
-   text-align: left;
- }
-
 
 
    li{
@@ -123,6 +63,7 @@ text-align: left;
 }
 
 .pelekie {
+  justify-content: center;
   row gap: 60px;
   gap: 60px;
   display: flex;
@@ -136,6 +77,21 @@ text-align: left;
   flex-direction: row-reverse;
 }
 
+.galerija {
+  background-color: white;
+  width: 700px;
+  height: 500px;  
+  border-radius: 200px;
+  padding: 40px;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
 
-
-
+.galerija img {
+  width: 100px;
+  height: auto;
+  border-radius: 150px;;
+  cursor: pointer;;
+}
