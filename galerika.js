@@ -28,7 +28,7 @@ slides[slideIndex-1].style.display = "block";
 dots[slideIndex-1].className += " active";
 }
 
-// Auto advance slides every 5 seconds
+// katras 5 sekundes nomainas atteli
 setInterval(() => {
 plusSlides(1);
 }, 5000);
