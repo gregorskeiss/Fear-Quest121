@@ -82,18 +82,3 @@ button:hover {
 #eee li a:hover {
   color: #666;
 }
-
-footer {
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-  background-color: #a61717;
-  color: white;
-  padding: 10px 0;
-  text-align: center;
-}
-
-footer li {
-  background-color: transparent;
-  color: white;
-}
