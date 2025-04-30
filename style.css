@@ -149,6 +149,10 @@ body {
   font-family: Arial, sans-serif;
 }
 
+* {
+  font-family: Arial, sans-serif;
+}
+
 #eee ul {
   background-color: #fff;
   padding: 15px 0;
