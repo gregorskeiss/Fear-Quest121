@@ -148,6 +148,46 @@ footer {
   text-align: center;
 }
 
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+#eee ul {
+  background-color: #fff;
+  padding: 15px 0;
+  margin: 0;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#eee li a {
+  text-decoration: none;
+  color: #333;
+  transition: color 0.3s;
+}
+
+#eee li a:hover {
+  color: #666;
+}
+
+.sarkanie, .pelekie {
+  max-width: 1200px;
+  margin: 50px auto;
+  padding: 30px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+
+  li{
+    display:inline;
 
 
 
