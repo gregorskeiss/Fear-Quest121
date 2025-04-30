@@ -134,7 +134,20 @@ text-align: left;
 
 .eee{
   flex-direction: row-reverse;
+
+
 }
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #a61717;
+  color: white;
+  padding: 10px 0;
+  text-align: center;
+}
+
 
 
 
