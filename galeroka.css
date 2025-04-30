@@ -1,97 +1,90 @@
 html {
-  height: 100%;
-  width: 100%;
+height: 100%;
+width: 100%;
 }
 
-
-  li{
-    display:inline;
-  background-color: white
-  color: black; 
-  padding: 20px;
-  text-align: center;
-  font size: 30px;
-    margin-top: 40px;
-    margin-
-
-
-h2 {
-  font-size: 23px;
-  justify-content: center;
-  font-family: sans-serif;
-  color: black;
-  text-align: left;
+li{
+  display:inline;
+background-color: white
+color: black; 
+padding: 20px;
+text-align: center;
+font size: 30px;
   margin-top: 40px;
   margin-bottom: 40px;
   margin-left: 40px;
   margin-right: 40px;
 }
 
-p {
-  font-size: 20px;
-  font-family: sans-serif;
-  color: black;
-  text-align: center;
-  margin-top: 40px;
-  margin-bottom: 40px;
-  margin-left: 40px;
-  margin-right: 40px;
+.galerija-container {
+max-width: 700px;
+position: relative;
+margin: auto;
+margin-top: 50px;
 }
 
-
-   li{
-     background-color: white
-     color: black; 
-     padding: 20px;
-     text-align: center;
-     font size: 30px;
-       margin-top: 80px;
-       margin-bottom: 40px;
-       margin-left: 40px;
-       margin-right: 40px;
-   }
-
-.sarkanie {
-  justify-content: center;
-  margin-bottom: 40px;
-  gap: 60px;
-  display: flex;
-  padding left :180px;
-  padding right: 180px;
-  padding top: 190px;
-  padding bottom: 190px;
+.myslides {
+display: none;
 }
 
-.pelekie {
-  justify-content: center;
-  row gap: 60px;
-  gap: 60px;
-  display: flex;
-  padding left :180px;
-  padding right: 180px;
-  padding top: 190px;
-  padding bottom: 190px;
+.myslides img {
+width: 100%;
+height: auto;
+border-radius: 10px;
 }
 
-.eee{
-  flex-direction: row-reverse;
+.prev, .next {
+cursor: pointer;
+position: absolute;
+top: 50%;
+width: auto;
+padding: 16px;
+margin-top: -22px;
+color: white;
+font-weight: bold;
+font-size: 18px;
+transition: 0.6s ease;
+border-radius: 0 3px 3px 0;
+user-select: none;
+background-color: rgba(0,0,0,0.8);
 }
 
-.galerija {
-  background-color: white;
-  width: 700px;
-  height: 500px;  
-  border-radius: 200px;
-  padding: 40px;
-  text-align: center;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
+.next {
+right: 0;
+border-radius: 3px 0 0 3px;
 }
 
-.galerija img {
-  width: 100px;
-  height: auto;
-  border-radius: 150px;;
-  cursor: pointer;;
+.prev:hover, .next:hover {
+background-color: rgba(0,0,0,0.9);
 }
+
+.dot-container {
+text-align: center;
+padding: 20px;
+}
+
+.dot {
+cursor: pointer;
+height: 15px;
+width: 15px;
+margin: 0 2px;
+background-color: #bbb;
+border-radius: 50%;
+display: inline-block;
+transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+background-color: #717171;
+}
+
+.fade {
+animation-name: fade;
+animation-duration: 1.5s;
+}
+
+@keyframes fade {
+from {opacity: .4}
+to {opacity: 1}
+}
+
