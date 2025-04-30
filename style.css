@@ -180,204 +180,25 @@ body {
   li{
     display:inline;
 
-    html {
-    height: 100%;
-    width: 100%;
+    footer {
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+      background-color: #a61717;
+      color: white;
+      padding: 10px 0;
+      text-align: center;
     }
 
-
-    li{
-    display:inline;
-    background-color: white
-    color: black;
-    padding: 20px;
-    text-align: center;
-    font size: 30px;
-    margin-top: 40px;
-    margin-bottom: 40px;
-    margin-left: 40px;
-    margin-right: 40px;
-    }
-    .twokont {
-    width: 700px;
-    height: 200px;
-    border: 5px outset grey;
-    background-color: lightgrey;
-    text-align: left;
+    #aaa ul {
+      margin: 0;
+      padding: 0;
     }
 
-    h2 {
-    font-size: 23px;
-    justify-content: center;
-    font-family: sans-serif;
-    color: black;
-    text-align: left;
-    margin-top: 40px;
-    margin-bottom: 40px;
-    margin-left: 40px;
-    margin-right: 40px;
+    #aaa li {
+      display: inline;
+      color: white;
+      background-color: transparent;
+      margin: 0 20px;
     }
-
-    p {
-    font-size: 20px;
-    font-family: sans-serif;
-    color: black;
-    text-align: center;
-    margin-top: 40px;
-    margin-bottom: 40px;
-    margin-left: 40px;
-    margin-right: 40px;
-    }
-
-    .onekont {
-    width: 1200px;
-    height: 200px;
-    border: 5px outset grey;
-    background-color: lightgrey;
-    text-align: left;
-    }
-    .threekont {
-    width: 370px;
-    height: 650px;
-    border: 5px outset red;
-    background-color: darkred;
-    text-align: left;
-    }
-    .fourkont {
-    width: 400px;
-    height: 650px;
-    border: 5px outset red;
-    background-color: darkred;
-    text-align: left;
-    }
-    .fivekont {
-    width: 200px;
-    height: 550px;
-    border: 5px outset grey;
-    background-color: lightgrey;
-    text-align: left;
-    }
-    .sixkont {
-    width: 200px;
-    height: 550px;
-    border: 5px outset grey;
-    background-color: lightgrey;
-    text-align: left;
-    }
-    .sevenkont {
-    width: 400px;
-    height: 650px;
-    border: 5px outset red;
-    background-color: darkred;
-    text-align: left;
-    }
-    .eightkont {
-    width: 200px;
-    height: 550px;
-    border: 5px outset grey;
-    background-color: lightgrey;
-    text-align: left;
-    }
-
-
-
-    li{
-    background-color: white
-    color: black;
-    padding: 20px;
-    text-align: center;
-    font size: 30px;
-    margin-top: 80px;
-    margin-bottom: 40px;
-    margin-left: 40px;
-    margin-right: 40px;
-    }
-
-    .sarkanie {
-    justify-content: center;
-    margin-bottom: 40px;
-    gap: 60px;
-    display: flex;
-    padding left :180px;
-    padding right: 180px;
-    padding top: 190px;
-    padding bottom: 190px;
-    }
-
-    .pelekie {
-    row gap: 60px;
-    gap: 60px;
-    display: flex;
-    padding left :180px;
-    padding right: 180px;
-    padding top: 190px;
-    padding bottom: 190px;
-    }
-
-    .eee{
-    flex-direction: row-reverse;
-
-
-    }
-
-    html {
-    height: 100%;
-    width: 100%;
-    }
-
-    body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-    }
-
-    #eee ul {
-    background-color: #fff;
-    padding: 15px 0;
-    margin: 0;
-    text-align: center;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    }
-
-    #eee li a {
-    text-decoration: none;
-    color: #333;
-    transition: color 0.3s;
-    }
-
-    #eee li a:hover {
-    color: #666;
-    }
-
-    .sarkanie, .pelekie {
-    max-width: 1200px;
-    margin: 50px auto;
-    padding: 30px;
-    background-color: white;
-    border-radius: 10px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-    }
-
-
-    li{
-    display:inline;
-
-      footer {
-        position: fixed;
-        bottom: 0;
-        width: 100%;
-        background-color: #a61717;
-        color: white;
-        padding: 10px 0;
-        text-align: center;
-      }
-
-      footer li {
-        background-color: transparent;
-        color: white;
-      }
-
-
-
-
-
-
+}
