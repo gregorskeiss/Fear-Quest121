@@ -6,12 +6,11 @@ html {
 
   li{
     display:inline;
-  background-color: white;
+  background-color: white
   color: black; 
   padding: 20px;
   text-align: center;
-  font-size: 30px;
-  font-family: Arial, sans-serif;
+  font size: 30px;
     margin-top: 40px;
     margin-bottom: 40px;
     margin-left: 40px;
@@ -101,13 +100,11 @@ text-align: left;
 
 
    li{
-     display:inline;
-     background-color: white;
+     background-color: white
      color: black; 
      padding: 20px;
      text-align: center;
-     font-size: 30px;
-     font-family: Arial, sans-serif;
+     font size: 30px;
        margin-top: 80px;
        margin-bottom: 40px;
        margin-left: 40px;
@@ -119,20 +116,20 @@ text-align: left;
   margin-bottom: 40px;
   gap: 60px;
   display: flex;
-  padding-left :180px;
-  padding-right: 180px;
-  padding-top: 190px;
-  padding-bottom: 190px;
+  padding left :180px;
+  padding right: 180px;
+  padding top: 190px;
+  padding bottom: 190px;
 }
 
 .pelekie {
-  row-gap: 60px;
+  row gap: 60px;
   gap: 60px;
   display: flex;
-  padding-left :180px;
-  padding-right: 180px;
-  padding-top: 190px;
-  padding-bottom: 190px;
+  padding left :180px;
+  padding right: 180px;
+  padding top: 190px;
+  padding bottom: 190px;
 }
 
 .eee{
